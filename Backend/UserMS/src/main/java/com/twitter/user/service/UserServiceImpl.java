@@ -1,5 +1,14 @@
 package com.twitter.user.service;
 
-public class UserServiceImpl {
+import com.twitter.user.dto.UserDTO;
+
+public class UserServiceImpl implements UserService{
+
+	@Override
+	public Long registerUser(UserDTO userDTO) {
+		// TODO Auto-generated method stub
+		
+		return null;
+	}
 
 }
