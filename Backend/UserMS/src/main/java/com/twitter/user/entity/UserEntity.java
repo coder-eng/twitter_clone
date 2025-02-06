@@ -5,9 +5,11 @@ import java.util.Date;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import lombok.Data;
+import lombok.Getter;
 
 @Data
 @Entity
+
 public class UserEntity {
 	
 	@Id
